@@ -1,6 +1,9 @@
 # Комплексный аудит системы https://www.chipdip.ru
 Стек технологий: Python, Playwrigth, Apache JMeter, Google DevTools, Browserstack
 
+## Ментальная карта системы
+![Apache JMeter screen](branded_mind_map.png)
+
 ## Содержание работ
 В ходе аудита было проведены:
 1) Функциональное тестирование
@@ -28,4 +31,5 @@
 
 ### Нагрузочное тестирование
 Успешно, блокировка с ошибкой 429 (Слишком много запросов) происходила при отправке более 2 запросов в секунду  
+![Apache JMeter screen](load-testing-result.PNG)
  
